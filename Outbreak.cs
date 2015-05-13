@@ -154,7 +154,7 @@ namespace Landis.Extension.Insects
                     DistributionType dist = insect.InitialPatchDistr;
                     double targetArea = Distribution.GenerateRandomNum(dist, insect.InitialPatchValue1, insect.InitialPatchValue2);
                     
-                    PlugIn.ModelCore.UI.WriteLine("  Target Patch Area={0:0.0}.", targetArea);
+                    //PlugIn.ModelCore.UI.WriteLine("  Target Patch Area={0:0.0}.", targetArea);
                     double areaSelected = 0.0;
             
                     //loop through stand, defoliating patches of size target area
@@ -210,7 +210,7 @@ namespace Landis.Extension.Insects
 
                     } 
                     
-                    PlugIn.ModelCore.UI.WriteLine("   Initial Patch Area Selected={0:0.0}.", areaSelected);
+                    //PlugIn.ModelCore.UI.WriteLine("   Initial Patch Area Selected={0:0.0}.", areaSelected);
                 } 
 
             } 
